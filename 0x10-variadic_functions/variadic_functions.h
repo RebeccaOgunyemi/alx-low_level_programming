@@ -3,7 +3,7 @@
 
 /*
  * File: variadic_functions.h
- * Auth: Tolulope Fakunle
+ * Auth: Rebecca Ogunyemi
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x0F-variadic_functions directory.
  */
@@ -26,6 +26,6 @@ typedef struct printer
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
-void print_all(const char * const format, ...);
+void print_all(const char *const format, ...);
 
 #endif
